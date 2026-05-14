@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    bottom: 0;
+}
+header {
+    width: 1024px;
+    height: 200px;
+    background-color: green;
+}
+nav{
+    width: 1300px;
+    height: 50px;
+    background-color: yellow;
+}
+main {
+    width: 1024px;
+    height: 400px;
+    background-color: red;
+}
+section {
+    width: 1024px;
+    height: 350px;
+    background-color: coral;
+}
+article {
+    width: 500px;
+    height: 47px;
+    background-color: blue;
+}
