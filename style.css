@@ -1,29 +1,84 @@
 *{
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    bottom: 0;
+}
+body{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    background-color: #ffff;
 }
 header {
-    width: 1024px;
-    height: 200px;
-    background-color: green;
+    margin: 30px;
+    width: 100%;
+    height: 15px;
+    margin: 5px;
+    padding: 35px;
+    background-color: black;
 }
 nav{
-    width: 1300px;
-    height: 50px;
+    width: 100%;
+    height: 10px;
+    padding: 15px;
+    border: 0px;
+    margin: -15px;
     background-color: yellow;
 }
 main {
-    width: 1024px;
-    height: 400px;
+    display: flex;
+    flex-direction:column;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
     background-color: red;
 }
 section {
-    width: 1024px;
-    height: 350px;
-    background-color: coral;
+    margin: 15px;
+    padding: 24px;
+    width: 96%;
+    height: 105px;
+    background-color: orange;
+}
+section div{
+    box-sizing: border-box;
+    background-color: yellow;
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    padding: 5px;
+    height: 22px;
 }
 article {
-    width: 500px;
-    height: 47px;
+    margin: 0 15px;
+    padding: 22px;
+    width: 96%;
+    height: 70px;
     background-color: blue;
+}
+article div{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: yellow;
+    height: 25px;
+}
+aside{
+    width: 10px;
+    height:10px;
+    display: flex;
+    flex-direction: column;
+    margin: -15%px;
+    padding: 10px;
+    background-color: lightgray;
+    float: right;
+}
+footer {
+    margin: 5px;
+    border: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: green;
 }
