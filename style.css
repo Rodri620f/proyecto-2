@@ -6,15 +6,13 @@
 body{
     padding: 20px;
     margin: 10px;
-    display: flex;
-    flex-direction:column;
     background-color: #ffff;
 }
 header {
     margin: 30px;
     width: 100%;
     height: 15px;
-    margin: 5px;
+    margin: 0px;
     padding: 35px;
     background-color: black;
 }
@@ -28,17 +26,17 @@ nav{
 }
 main {
     display: flex;
-    flex-direction:column;
-    margin: 5px;
-    padding: 10px;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
     width: 100%;
     height: 100%;
     background-color: red;
 }
 section {
-    margin: 15px;
+    margin: 5px;
     padding: 24px;
-    width: 96%;
+    width: 95%;
     height: 105px;
     background-color: orange;
 }
@@ -52,9 +50,9 @@ section div{
     height: 22px;
 }
 article {
-    margin: 0 15px;
+    margin:  5px;
     padding: 22px;
-    width: 96%;
+    width: 95%;
     height: 70px;
     background-color: blue;
 }
@@ -64,18 +62,20 @@ article div{
     background-color: yellow;
     height: 25px;
 }
-aside{
-    width: 10px;
-    height:10px;
+.contenedor{
     display: flex;
     flex-direction: column;
-    margin: -15%px;
+    width: 100%;
+}
+aside{
+    margin: 5px;
+    width: 80%;
+    height: 190px;
     padding: 10px;
     background-color: lightgray;
-    float: right;
 }
 footer {
-    margin: 5px;
+    margin: 0px;
     border: 0px;
     padding: 10px;
     width: 100%;
